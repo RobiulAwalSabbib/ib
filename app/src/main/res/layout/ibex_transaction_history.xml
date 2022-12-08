@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/tv_tran_no"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Trans. No"
+        android:gravity="center"
+        android:layout_marginEnd="10dp"/>
+    <TextView
+        android:id="@+id/tv_acc_no"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Account No."
+        android:gravity="center"
+        android:layout_marginEnd="10dp"/>
+    <!--    <TextView-->
+    <!--        android:id="@+id/tv_gl_no"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="1"-->
+    <!--        android:text="GL No."-->
+    <!--        android:gravity="center"/>-->
+    <TextView
+        android:id="@+id/tv_tran_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Tran. Date"
+        android:gravity="center"
+        android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_tran_amt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Tran Amt."
+        android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_new_balance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="New Balance"
+        android:gravity="center"
+        android:layout_marginEnd="10dp"/>
+    <!--    <TextView-->
+    <!--        android:id="@+id/tv_particular"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="1"-->
+    <!--        android:text="Particular"-->
+    <!--        android:gravity="center"/>-->
+
+
+</LinearLayout>

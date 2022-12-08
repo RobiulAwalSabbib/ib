@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IbexRegistrationActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/frameback">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/logo" />
+
+            </FrameLayout>
+
+            <!--<TextView-->
+            <!--    android:layout_width="match_parent"-->
+            <!--    android:layout_height="wrap_content"-->
+            <!--    android:text="User Registration"-->
+            <!--    android:textSize="20sp"-->
+            <!--    android:gravity="center"/>-->
+            <!--    <androidx.cardview.widget.CardView-->
+            <!--        android:layout_width="match_parent"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_marginTop="10dp"-->
+            <!--        app:cardBackgroundColor="#B1D8E6"-->
+            <!--        app:cardCornerRadius="10dp"-->
+            <!--        app:cardElevation="1dp">-->
+
+            <!--        <RadioGroup-->
+            <!--            android:id="@+id/rg_registration_acNo"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:orientation="vertical">-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:gravity="center"-->
+            <!--                android:text="Already Have Bank Account ?"-->
+            <!--                android:textSize="20sp"-->
+            <!--                android:textStyle="italic" />-->
+
+            <!--            <RadioButton-->
+            <!--                android:id="@+id/rb_registration_default"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:checked="true"-->
+            <!--                android:text="Default"-->
+            <!--                android:textSize="20sp"-->
+            <!--                android:textStyle="bold"-->
+            <!--                android:visibility="gone"/>-->
+
+            <!--            <RadioButton-->
+            <!--                android:id="@+id/rb_registration_yes"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Yes"-->
+            <!--                android:textSize="20sp"-->
+            <!--                android:textStyle="bold" />-->
+
+
+            <!--            <RadioButton-->
+            <!--                android:id="@+id/rb_registration_no"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="No"-->
+            <!--                android:textSize="20sp"-->
+            <!--                android:textStyle="bold" />-->
+
+
+            <!--        </RadioGroup>-->
+
+
+            <!--    </androidx.cardview.widget.CardView>-->
+
+
+
+
+            <ScrollView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv_regi_formate_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="#FFFF">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:orientation="vertical">
+
+
+
+                                <EditText
+                                    android:id="@+id/et_cbs_accno"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="10dp"
+                                    android:hint="AccNo"
+                                    android:inputType="number" />
+
+
+                                <EditText
+                                    android:id="@+id/et_cbs_mobile"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="10dp"
+                                    android:hint="Mobile"
+                                    android:inputType="number" />
+
+                                <EditText
+                                    android:id="@+id/et_cbs_email"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="10dp"
+
+                                    android:hint="Email" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:weightSum="3">
+
+                                    <EditText
+                                        android:id="@+id/et_cbs_dob"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="60dp"
+                                        android:layout_marginTop="10dp"
+                                        android:drawableRight="@drawable/ic_baseline_login_24"
+
+                                        android:hint="Date of Birth 01-JAN-1900"
+                                        android:layout_weight="2"/>
+
+                                    <!--                            <Button-->
+                                    <!--                                android:id="@+id/btn_choose_date"-->
+                                    <!--                                android:layout_width="wrap_content"-->
+                                    <!--                                android:layout_height="wrap_content"-->
+                                    <!--                                android:text="Select DOB"-->
+                                    <!--                                android:layout_weight="1"/>-->
+
+                                </LinearLayout>
+                                <TextView
+                                    android:id="@+id/et_cbs_father_name"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Father Name"
+                                    android:textSize="18sp"/>
+
+                                <TextView
+                                    android:id="@+id/et_cbs_mailing_address"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="10dp"
+                                    android:hint="Mailing Address"
+                                    android:textSize="18sp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_weight="2"
+                                android:gravity="center|top"
+                                android:orientation="vertical"
+                                android:paddingLeft="50dp"
+                                android:paddingRight="50dp">
+
+                                <Button
+                                    android:id="@+id/btn_cbs_acc_chek"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp"
+                                    android:backgroundTint="#0B3759"
+                                    android:text="Check"
+                                    android:textAllCaps="false" />
+                                <Button
+                                    android:visibility="gone"
+                                    android:layout_marginTop="10dp"
+                                    android:id="@+id/btn_cbs_reg"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp"
+                                    android:backgroundTint="#0B3759"
+                                    android:text="Registration"
+                                    android:textAllCaps="false"
+                                    android:layout_marginBottom="20dp"/>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+            <TextView
+                android:id="@+id/tv_goto_loginActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Go to Login Screen"
+                android:textColor="#1B1919"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
